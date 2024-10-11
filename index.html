@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="description" content="Web Content">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="author">
+        <meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="content-script-type" content="text/javascript">
+        <meta http-equiv="x-dns-prefetch-control" content="on">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="assests/images/fav_icon.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="assests/images/fav_icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assests/images/fav_icon.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assests/images/fav_icon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assests/images/fav_icon.png">
+        <!-- Bootstrap CSS -->
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- Custom css -->
+        <link rel="stylesheet" href="assests/css/style.css">
+        <!-- Responsive midea css -->
+        <link rel="stylesheet" href="assests/css/media.css">
+        <title>StopNot - Cheap Flights, Cheap Holiday Offers… StopNot.co.uk</title>
+    </head>
+    <body>
+        <!-- oncontextmenu="return false" -->
+        
+        <!-- header start -->
+        <header class="sticky-top">
+            <div class="container-fluid px-xl-5">
+                <nav class="navbar navbar-expand-xl p-0">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assests/images/logo.svg" alt="img" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header justify-content-end">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                
+                                
+                                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 align-self-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Flights</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Holidays</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Special Offers</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Group Travel</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Round the World</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Pay Now</a>
+                                    </li>
+                                </ul>
+                                <div class="d-xl-flex d-none header-right align-self-center">
+                                    <div class="item1 align-self-center">
+                                        
+                                        <a href="" ><img src="assests/images/logo-icon.svg" alt="img" class="img-fluid"></a>
+                                        <a href="" ><img src="assests/images/IataLogo.png" alt="img" class="img-fluid"></a>
+                                    </div>
+                                    <div class="item2 align-self-center text-end">
+                                        <a class="numb-link" href="tel: 0123 786 5432">0123 786 5432</a>
+                                        <p>Daily Open  0800 Hours - 2359 Hours</p>
+                                        <p>Email: <a href="mailto: sales@brandname.co.uk">sales@brandname.co.uk</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="container d-xl-none d-block">
+                <div class="d-flex header-right align-self-center justify-content-center">
+                    <div class="item1 align-self-center">
+                        <a href="" ><img src="assests/images/logo-icon.svg" alt="img" class="img-fluid"></a>
+                        <a href="" ><img src="assests/images/IataLogo.png" alt="img" class="img-fluid"></a>
+                    </div>
+                    <div class="item2 align-self-center text-end">
+                        <a class="numb-link" href="tel: 0123 786 5432">0123 786 5432</a>
+                        <p>Daily Open  0800  - 2359 Hours</p>
+                        <p>Email: <a href="mailto: sales@brandname.co.uk">sales@brandname.co.uk</a></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+        
+        
+        <main>
+            <!-- banner start -->
+            <section class="banner">
+                <div class="container">
+                    <div class="box">
+                        <h1>It's deal time!</h1>
+                        <p>Freshest price cuts for <br> top amazing cities</p>
+                    </div>
+                    <div class="banner-botton">
+                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"> <img src="assests/images/clarity_airplane-solid.svg" alt=""> Flight</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><img src="assests/images/fa6-solid_hotel.png" alt="img" class="img-fluid"> Holidays</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                <div class="tab-body">
+                                    <form action="">
+                                        <div class="tab-item1 d-flex justify-content-center align-content-center align-content-center">
+                                            <div class="item item1  align-content-center">
+                                                <h4>FROM</h4>
+                                                <input type="text" value="Southern Cross (SQC)" class="form-control onput1">
+                                                
+                                                <!-- <h2>Southern Cross (SQC)</h2>
+                                                <p>Southern Cross, Australia</p> -->
+                                            </div>
+                                            <div class="replacebar align-content-center">
+                                                <button><img src="assests/images/arrow.svg" alt=""></button>
+                                            </div>
+                                            <div class=" item item2">
+                                                <h4>TO</h4>
+                                                <input type="text" value="Southern Cross (SQC)" class="form-control onput1">
+                                                
+                                            </div>
+                                            <div class="item3 item03  d-flex align-content-center">
+                                                <button class="item-wrapp d-flex" >
+                                                <span class="ditem01 ditem">
+                                                    <h4 class="date-title">DEPARTURE</h4>
+                                                    <h2>12 Jun 22</h2>
+                                                    <p>Thursday</p>
+                                                </span>
+                                                <span class="ditem2">
+                                                    <img src="assests/images/calendar.svg" alt="img" class="img-fluid">
+                                                </span>
+                                                </button>
+                                                <button class="item-wrapp d-flex" >
+                                                <span class="ditem02 ditem">
+                                                    <h4 class="date-title">DEPARTURE</h4>
+                                                    <h2>12 Jun 22</h2>
+                                                    <p>Thursday</p>
+                                                </span>
+                                                <span class="ditem2">
+                                                    <img src="assests/images/calendar.svg" alt="img" class="img-fluid">
+                                                </span>
+                                                </button>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="tab-item2 d-flex">
+                                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                <option selected>02 Adults  <span class="small">(12+ Yrs)</span></option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                <option selected>02 Age (Child)</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                <option selected>00 Under 2 (Infant)</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                <option selected>One Way</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                <option selected>Business Class</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="button-on-flay text-sm-end  d-sm-flex d-block justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                                <label class="form-check-label" for="flexCheckChecked">Direct Flights
+                                                </label>
+                                            </div>
+                                            <button type="submit">Search Flights <img src="assests/images/arrow-right.svg" alt="img" class="img-fluid"></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                <div class="tab-body">
+                                    <form action="">
+                                        <div class="tab-item1 d-flex justify-content-center align-content-center align-content-center">
+                                            <div class="item item1  align-content-center">
+                                                <h4>FROM</h4>
+                                                <input type="text" value="Southern Cross (SQC)" class="form-control onput1">
+                                                
+                                                <!-- <h2>Southern Cross (SQC)</h2>
+                                                <p>Southern Cross, Australia</p> -->
+                                            </div>
+                                            <div class="replacebar align-content-center">
+                                                <button><img src="assests/images/arrow.svg" alt=""></button>
+                                            </div>
+                                            <div class=" item item2">
+                                                <h4>TO</h4>
+                                                <input type="text" value="Southern Cross (SQC)" class="form-control onput1">
+                                                
+                                            </div>
+                                            <div class="item3 item03  d-flex align-content-center">
+                                                <button class="item-wrapp d-flex" >
+                                                <span class="ditem01 ditem">
+                                                    <h4 class="date-title">DEPARTURE</h4>
+                                                    <h2>12 Jun 22</h2>
+                                                    <p>Thursday</p>
+                                                </span>
+                                                <span class="ditem2">
+                                                    <img src="assests/images/calendar.svg" alt="img" class="img-fluid">
+                                                </span>
+                                                </button>
+                                                <button class="item-wrapp d-flex" >
+                                                <span class="ditem02 ditem">
+                                                    <h4 class="date-title">DEPARTURE</h4>
+                                                    <h2>12 Jun 22</h2>
+                                                    <p>Thursday</p>
+                                                </span>
+                                                <span class="ditem2">
+                                                    <img src="assests/images/calendar.svg" alt="img" class="img-fluid">
+                                                </span>
+                                                </button>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="tab-item2 d-flex">
+                                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                <option selected>02 Adults  <span class="small">(12+ Yrs)</span></option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                <option selected>02 Age (Child)</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                <option selected>00 Under 2 (Infant)</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                <option selected>One Way</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                                <option selected>Business Class</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                        </div>
+                                        <div class="button-on-flay text-sm-end  d-sm-flex d-block justify-content-between align-items-center">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                                <label class="form-check-label" for="flexCheckChecked">Direct Flights
+                                                </label>
+                                            </div>
+                                            <button type="submit">Search Flights <img src="assests/images/arrow-right.svg" alt="img" class="img-fluid"></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- banner end -->
+            <!-- sevices start -->
+            <section class="services">
+                <div class="services-box">
+                    <div class="container">
+                        <div class="box">
+                            <!-- row start -->
+                            <div class="row">
+                                <!-- single item start -->
+                                <div class="col-lg-3 col-6">
+                                    <div class="item">
+                                        <div class="box-img">
+                                            <img src="assests/images/icon1.svg" alt="img" class="img-fluid">
+                                        </div>
+                                        <p>Complete Customer Support</p>
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                <!-- single item start -->
+                                <div class="col-lg-3 col-6">
+                                    <div class="item">
+                                        <div class="box-img">
+                                            <img src="assests/images/icon2.svg" alt="img" class="img-fluid">
+                                        </div>
+                                        <p>Quality Assured</p>
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                <!-- single item start -->
+                                <div class="col-lg-3 col-6 mt-lg-0 mt-5">
+                                    <div class="item">
+                                        <div class="box-img">
+                                            <img src="assests/images/icon3.svg" alt="img" class="img-fluid">
+                                        </div>
+                                        <p>ATOL Protected</p>
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                <!-- single item start -->
+                                <div class="col-lg-3 col-6 mt-lg-0 mt-5">
+                                    <div class="item">
+                                        <div class="box-img">
+                                            <img src="assests/images/icon4.svg" alt="img" class="img-fluid">
+                                        </div>
+                                        <p>Easy & Secure Bookings</p>
+                                    </div>
+                                </div>
+                                <!-- single item end -->
+                                
+                            </div>
+                            <!-- row end-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- sevices end -->
+            <!-- Explore start -->
+            <section class="Explore">
+                <div class="container">
+                    <div class="explore-top">
+                        <h2>Explore Top Destinations</h2>
+                        <p>Compare cheap flights to worldwide destinations</p>
+                    </div>
+                    <!-- row start -->
+                    <div class="row">
+                        <!-- single item start -->
+                        <div class="col-lg-4">
+                            <a href="" class="d-block item">
+                                <img src="assests/images/1.png" alt="img" class="img-fluid">
+                                <span class="box d-block">
+                                    <span class="top-link-box"><img src="assests/images/airplane.svg" alt="img" class="img-fluid"> Group Travel</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Duis aute irure dolor in reprehenderit in voluptate</p>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- single item end-->
+                        <!-- single item start -->
+                        <div class="col-lg-4 mt-lg-0 mt-5">
+                            <a href="" class="d-block item">
+                                <img src="assests/images/2.png" alt="img" class="img-fluid">
+                                <span class="box d-block">
+                                    <span class="top-link-box"><img src="assests/images/airplane.svg" alt="img" class="img-fluid"> Round The World</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Duis aute irure dolor in reprehenderit in voluptate</p>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- single item end-->
+                        <!-- single item start -->
+                        <div class="col-lg-4  mt-lg-0 mt-5">
+                            <a href="" class="d-block item">
+                                <img src="assests/images/3.png" alt="img" class="img-fluid">
+                                <span class="box d-block">
+                                    <span class="top-link-box"><img src="assests/images/airplane.svg" alt="img" class="img-fluid"> Holiday Offers</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Duis aute irure dolor in reprehenderit in voluptate</p>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- single item end-->
+                        
+                    </div>
+                    <!-- row end-->
+                </div>
+            </section>
+            <!-- Explore end-->
+            <!-- Great deals start -->
+            <div class="Great-deals">
+                <div class="container">
+                    <!-- row start -->
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="item">
+                                <img src="assests/images/4.png" alt="img" class="img-fluid">
+                                <div class="box">
+                                    <h4>Great deals on first class flights</h4>
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+                                    <a href="">First Class Flight Deals <img src="assests/images/arrow-right.svg" alt="img" class="img-fluid"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt-lg-0 mt-5">
+                            <div class="item">
+                                <img src="assests/images/5.png" alt="img" class="img-fluid">
+                                <div class="box">
+                                    <h4>Great deals on business class flights</h4>
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+                                    <a href="">Business Class Flight Deals <img src="assests/images/arrow-right.svg" alt="img" class="img-fluid"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row end -->
+                </div>
+            </div>
+            <!-- Great deals end -->
+            <!-- flights and more start -->
+            <div class="flights-and-more">
+                <div class="container">
+                    <div class="flights-top">
+                        <h2>Great deals on flights and more from Lorem Ipsum</h2>
+                        <p>Compare cheap flights to worldwide destinations over the phone or online! Call us now to speak to our experienced and helpful flight experts for tailor made itineraries and personalised quotes. We’ll even aim to price match any flight offers you may have received elsewhere! Take a look at our amazing flight deals and book now!</p>
+                    </div>
+                    <!-- row start -->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="item">
+                                <img src="assests/images/6.png" alt="img" class="img-fluid">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <h4>Cheap Hotel Deals</h4>
+                                    </div>
+                                    <div class="button-link text-end">
+                                        <a href="">View</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-lg-0 mt-5">
+                            <div class="item">
+                                <img src="assests/images/7.png" alt="img" class="img-fluid">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <h4>Cheap Hotel Deals</h4>
+                                    </div>
+                                    <div class="button-link text-end">
+                                        <a href="">View</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mt-lg-0 mt-5">
+                            <div class="item">
+                                <img src="assests/images/8.png" alt="img" class="img-fluid">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <h4>Cheap Hotel Deals</h4>
+                                    </div>
+                                    <div class="button-link text-end">
+                                        <a href="">View</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row end -->
+                </div>
+            </div>
+            <!-- flights and more end-->
+            <!-- Newsletter start -->
+            <div class="Newsletter text-center">
+                <div class="container">
+                    <div class="box">
+                        <h2><span>Newsletter</span></h2>
+                        <p>NOT ALL DEALS ARE ONLINE. Get in touch for exclusive offline discounts!</p>
+                        <form action="">
+                            <input type="email" class="form-control" placeholder="Enter your email address">
+                            <button type="submit">Submit <img src="assests/images/arrow-right.svg" alt="img" class="img-fluid"></button>
+                        </form>
+                        <p class="sing-up"><a href="">Sign up</a> to get the best and latest offers, deals, news and updates delivered to your inbox</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Newsletter end -->
+            <!-- Why Book start -->
+            <div class="why-book">
+                <div class="container">
+                    <div class="why-top">
+                        <h2>Why Book With Us?</h2>
+                        <p>Book cheap flights from over 100 of the World's leading Airlines...</p>
+                    </div>
+                    <div class="box text-center">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Why Book end -->
+            <!-- why-services start -->
+            <div class="why-services">
+                <div class="container">
+                    <!-- row start -->
+                    <div class="d-flex justify-content-between">
+                        <!-- single item start -->
+                        <div class="flext-item">
+                            <div class="media align-self-center">
+                                <img src="assests/images/001.png" alt="img" class="img-fluid align-self-center">
+                                <div class="media-body align-self-center">
+                                    <h4>100% Secure</h4>
+                                    <p>Secure Online Booking</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single item end -->
+                        <!-- single item start -->
+                        <div class="flext-item">
+                            <div class="media align-self-center">
+                                <img src="assests/images/002.png" alt="img" class="img-fluid align-self-center">
+                                <div class="media-body align-self-center">
+                                    <h4>Trustpilot</h4>
+                                    <p>Trust score: 4.7 (2,310 reviews)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single item end -->
+                        <!-- single item start -->
+                        <div class="flext-item">
+                            <div class="media align-self-center">
+                                <img src="assests/images/003.png" alt="img" class="img-fluid align-self-center">
+                                <div class="media-body align-self-center">
+                                    <h4>Excellent Customer Rating</h4>
+                                    <p>4.4 / 5 Independent service rating</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single item end -->
+                        <!-- single item start -->
+                        <div class="flext-item">
+                            <div class="media align-self-center">
+                                <img src="assests/images/004.jpeg" alt="img" class="img-fluid align-self-center">
+                                <div class="media-body align-self-center">
+                                    <h4>We Are Atol Protected</h4>
+                                    <p>Your money is safe with us</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- single item end -->
+                        
+                    </div>
+                    <!-- row end -->
+                </div>
+            </div>
+            <!-- why-services end -->
+            <!-- footer wrapper start -->
+            <div class="footer-top text-lg-start text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-4 ">
+                            <div class="item-left">
+                                <a href=""><img src="assests/images/logo-white.png" alt="img" class="img-fluid"></a>
+                                <p>Lorem ipsum dolor amet, consectetur adipiscing elit. Eget nisl nunc quam ac sed turpis volutpat. Cursus sed massa non nisi, placerat.</p>
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-8 mt-lg-0 mt-5">
+                            <div class="item-right">
+                                <div class="row">
+                                    <div class="col-lg-3 col-12">
+                                        <h4>Quick Links</h4>
+                                        <ul class="row justify-content-center">
+                                            <li class="col-sm-12 col-6"><a href="">Home</a></li>
+                                            <li class="col-sm-12 col-6"><a href="">About Us</a></li>
+                                            <li class="col-sm-12 col-6"><a href="">Contact Us</a></li>
+                                            <li class="col-sm-12 col-6"><a href="">Pay Now</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-9  mt-lg-0 mt-5">
+                                        <h4>POPULAR DESTINATIONS</h4>
+                                        <div class="row">
+                                            <div class="col-lg-4 col-6">
+                                                <ul>
+                                                    <li><a href="">Abu Dhabi Flights</a></li>
+                                                    <li><a href="">Adelaide Flights</a></li>
+                                                    <li><a href="">Auckland Flights</a></li>
+                                                    <li><a href="">Atlanta Flights</a></li>
+                                                    <li><a href="">Bali Flights</a></li>
+                                                    <li><a href="">Bangkok Flights</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-4  col-6">
+                                                <ul>
+                                                    <li><a href="">Cape Town Flights</a></li>
+                                                    <li><a href="">Chicago Flights</a></li>
+                                                    <li><a href="">Phuket Flights</a></li>
+                                                    <li><a href="">Tampa Flights</a></li>
+                                                    <li><a href="">Delhi Flights</a></li>
+                                                    <li><a href="">Manila Flights</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-12 col-12">
+                                                <ul class="row">
+                                                    <li class="col-lg-12 col-6"><a href="">Orlando Flights</a></li>
+                                                    <li class="col-lg-12 col-6"><a href="">Hawaii Flights</a></li>
+                                                    <li class="col-lg-12 col-6"><a href="">Hong Kong Flights</a></li>
+                                                    <li class="col-lg-12 col-6"><a href="">Miami Flights</a></li>
+                                                    <li class="col-lg-12 col-6"><a href="">Las Vegas Flights</a></li>
+                                                    <li class="col-lg-12 col-6"><a href="">Lima Flights</a></li>
+                                                </ul>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- footer wrapper end -->
+        </main>
+        <!-- footer start -->
+        <footer>
+            <div class="container text-center">
+                <ul>
+                    <li><a href="">Terms & Conditions</a></li><span>|</span>
+                    <li><a href="">Privacy</a></li><span>|</span>
+                    <li><a href="">Sitemap</a></li><span>|</span>
+                    <li><a href="">Cookie Policy</a></li>
+                </ul>
+                <p>© Copyright- 2022 , HolidayNation | HolidayNation is a trading name of A1 Travel Deals Limited, registered in England No. 06981085</p>
+            </div>
+        </footer>
+        <!-- footer end -->
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="assests/js/jquery.min.js"></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <!-- fontawesome icon -->
+        <script src="assests/fontawesome/js/all.js"></script>
+        <script src="assests/js/script.js"></script>
+    </body>
+</html>
